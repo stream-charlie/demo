@@ -1,0 +1,1073 @@
+/*
+--------------
+MEDIA WIDTH SETTINGS
+--------------
+*/
+
+/* --- MOBILE --- */
+
+@media only screen and (min-width: 0px) and (max-width: 599px) {
+
+
+	/* -- GENERAL TYPOGRAPHY -- */
+
+	h1	{
+		font-size: 2.5em;
+	}
+
+	h2 {
+		font-size: 1.8em;
+	}
+
+
+	/* -- GENERAL COVER SECTION -- */
+
+	#header-bar {
+		margin: 0 3em;
+	}
+
+	.header-bar-profile-info {
+		display: none;
+	}
+
+	#cover-bar {
+		height: 11em;
+		padding-top: 2.7em;
+	}
+
+
+	/* -- GENERAL TOP SECTION HEIGHT -- */
+
+	#profile-section,
+	#stream-section,
+	#market-categories-section,
+	#category-products-section,
+	#reward-section {
+		margin-top: -3em;		
+	}
+
+
+	/* -- PROFILE SECTION -- */
+
+	#profile-card {
+		width: 25em;
+		height: 32em;
+	}
+
+	#profile-card-cover {
+		width: 25em;
+		height: 15em;
+		margin-bottom: 2.5em;
+	}
+
+	#profile-email-field {
+		width: 21em;
+		height: 4.5em;
+
+		margin: 2em auto;
+		padding: 1.7em 0;
+	}
+
+	#profile-email {
+		font-size: 1em;
+	}
+
+	#profile-password-link {
+		font-size: 1.2em;
+	}
+
+
+	/* -- STREAM SECTION -- */
+
+	#stream-card {
+		width: 25em;
+		height: 19em;
+		padding-top: 2em;
+	}
+
+	#stream-source {
+		width: 22em;
+		height: 12.5em;
+	}
+
+	#stream-profile-frame {
+		width: 5em;
+		height: 5em;
+		border-radius: 5em;
+		margin-top: -2.5em;
+		padding-top: 0.5em;
+	}
+
+	#stream-profile-image {
+		width: 4em;
+		height: 4em;
+		border-radius: 4em;
+		background-size: 4em;
+	}
+
+
+	/* -- DONATION SECTION -- */
+
+	#donation-section {
+		margin-top: 2em;
+	}
+
+	#donation-card {
+		padding-top: 2.5em;
+		width: 25em;
+		height: 47em;
+	}
+
+	.donation-form-input,
+	#donation-name-input,
+	#donation-amount-input {
+		text-align: center;
+	}
+
+	/* - DONATION NAME - */
+
+		#donation-name-field {
+			width: 21em;
+			height: 4.5em;
+
+			margin-top: 2em;
+			padding: 0.5em 0;
+		}
+
+		#donation-name-input {
+			font-size: 1.5em;
+			height: 2.25em;
+			width: 13.5em;
+		}
+
+	/* - DONATION AMOUNT - */
+
+		#donation-amount-field {
+			margin-top: 1em;
+			height: 4.5em;
+			width: 21em;
+			padding: 0em 2em;
+		}
+
+		#donation-amount-input {
+			font-size: 2em;
+			height: 1.8em;
+			width: 4.8em;
+			margin-top: 0.2em;
+		}
+
+		#donation-amount-symbol,
+		#donation-amount-currency {
+			height: 4.5em;
+			width: 3.5em;
+		}
+
+		#donation-amount-symbol {
+			padding-top: 1.2em;
+		}
+
+		#donation-amount-symbol p {
+			font-size: 2.2em;
+		}
+
+		#donation-amount-currency {
+			padding-top: 1.5em;
+		}
+
+		#donation-amount-currency p {
+			font-size: 1.5em;
+		}
+
+
+	/* -- MARKET CATEGORY SECTION -- */
+
+	.market-card {
+		width: 25em;
+		height: 33em;
+		margin: 0em auto 3em auto;
+	}
+
+	.market-card-cover {
+		width: 25em;
+		margin-bottom: 2em;
+	}
+
+	.market-card h2 {
+		font-size: 2em;
+	}
+
+	.market-card p {
+		font-size: 1.2em;
+		margin: 0.8em auto 2.5em auto;
+	}
+
+	.market-card-button	{
+		font-size: 1.6em;
+		padding: 0.6em 2em;
+	}
+
+
+	/* -- PURCHASE WINDOW SECTION -- */	
+
+	#purchase-window-section {
+		margin-top: 1em;
+		width: 25em;
+	}
+
+	#purchase-window-card {
+		width: 25em;
+		height: 44.5em;
+	}
+
+	#purchase-window-success-card {
+		width: 25em;
+		height: 42em;
+	}
+
+	#purchase-window-card h2,
+	#purchase-window-success-card h2 {
+		padding-top: 1.5em;
+	}
+
+	.purchase-window-cover {
+		height: 18em;
+		margin-top: 2em;
+		padding-top: 3.25em;
+	}
+
+	.purchase-window-cover img {
+		height: 12em;
+	}
+
+		/* -- PURCHASE WINDOW RECEIPT -- */
+
+		#purchase-window-receipt {
+			margin: 2em auto 4em auto;
+			width: 21em;
+		}
+
+		.purchase-window-row {
+			height: 1.5em;
+		}
+
+		.purchase-window-item {
+			margin-top: 0.2em;
+			font-size: 1.4em;
+		}
+
+		.purchase-window-amount {
+			font-size: 1.8em;
+		}
+
+		.purchase-window-line {
+			margin-bottom: 1em;
+		}
+
+		.purchase-window-button {
+			font-size: 1.6em;
+			padding: 0.6em 2em;
+			border-radius: 0.3em;
+		}
+
+		/* -- PURCHASE WINDOW SUMMARY -- */
+
+		#purchase-window-summary {
+			margin: -1em auto 0em auto;
+			width: 21em;
+		}
+
+		#purchase-window-summary h2	{
+			width: 7.5em;
+			line-height: 1.3em;
+		}
+
+		#purchase-window-summary p {
+			font-size: 1.2em;
+			line-height: 1.5em;
+			margin: 0.8em auto 2.5em auto;
+		}
+
+
+	/* -- REWARD SECTION -- */
+
+	.reward-card {
+		width: 25em;
+		height: 33em;
+		margin: 0em auto 3em auto;		
+	}
+
+	.reward-card-cover {
+		height: 15em;
+	}
+
+	.reward-card-contents {
+		width: 21em;
+	}
+
+	.reward-card-contents h2 {
+		padding-top: 1.5em;
+		width: 7.5em;	
+		line-height: 1.3em;	
+	}
+
+	.reward-card-contents p {
+		font-size: 1.2em;
+		line-height: 1.5em;
+		margin: 0.8em auto 2.5em auto;		
+	}
+
+	#combination-reward-card-title {
+		width: 12em;
+	}
+
+		/* -- REWARD CARD COVERS -- */
+
+		#charlie-reward-card-cover,
+		#product-reward-card-cover,
+		#combination-reward-card-cover {
+			padding-top: 2.5em;
+		}
+
+		#charlie-reward-card-cover img,
+		#product-reward-card-cover img,
+		#combination-reward-card-cover img {
+			height: 10em;
+		}
+
+
+	/* -- UPSELL SECTION -- */
+
+	#upsell-section {
+		margin-top: 5em;
+	}
+
+	.upsell-card img {
+		height: 15em;
+	}
+
+	.upsell-card h2 {
+		padding-top: 0.5em;
+	}
+
+	.upsell-card p {
+		font-size: 1.2em;
+		margin: 0.5em auto 2.5em auto;		
+	}
+
+	.upsell-card-market-button	{
+		font-size: 1.6em;
+		padding: 0.6em 2.1em;
+	}
+
+	.upsell-card-signup-button {
+		font-size: 1.6em;
+		padding: 0.6em 3.4em;		
+	}
+
+
+
+
+}
+
+
+/* --- TABLET --- */
+
+@media only screen and (min-width: 600px) and (max-width: 1023px) {
+
+
+	/* -- GENERAL TYPOGRAPHY -- */
+
+	h1	{
+		font-size: 3em;
+	}
+
+	h2 {
+		font-size: 2em;
+	}
+
+
+	/* -- GENERAL COVER SECTION -- */
+
+	#header-bar {
+		margin: 0 3em;
+	}
+
+	#cover-bar {
+		height: 14em;
+		padding-top: 3.4em;
+	}
+
+
+	/* -- GENERAL TOP SECTION HEIGHT -- */
+
+	#profile-section,
+	#stream-section,
+	#market-categories-section,
+	#category-products-section,
+	#reward-section {
+		margin-top: -4em;
+	}
+
+
+	/* -- PROFILE SECTION -- */
+
+	#profile-card {
+		width: 40em;
+		height: 33em;
+	}
+
+	#profile-card-cover {
+		width: 40em;
+		height: 15em;
+		margin-bottom: 3em;
+	}
+
+	#profile-email-field {
+		width: 30em;
+		height: 4.5em;
+
+		margin: 2em auto;
+		padding: 1.6em 1.5em;
+	}
+
+	#profile-email {
+		font-size: 1.2em;
+	}
+
+	#profile-password-link {
+		font-size: 1.4em;
+	}
+
+
+	/* -- STREAM SECTION -- */
+
+	#stream-card {
+		width: 40em;
+		height: 29em;
+		padding-top: 2.5em;
+	}
+
+	#stream-source {
+		width: 36em;
+		height: 20.5em;
+	}
+
+	#stream-profile-frame {
+		width: 7em;
+		height: 7em;
+		border-radius: 7em;
+		margin-top: -3.5em;
+		padding-top: 0.5em;
+	}
+
+	#stream-profile-image {
+		width: 6em;
+		height: 6em;
+		border-radius: 6em;
+		background-size: 6em;
+	}
+
+
+	/* -- DONATION SECTION -- */
+
+	#donation-section {
+		margin-top: 3em;
+	}
+
+	#donation-card {
+		padding-top: 3em;
+		width: 40em;
+		height: 49em;
+	}
+
+
+	/* - DONATION NAME - */
+
+		#donation-name-field {
+			width: 30em;
+			height: 4.5em;
+
+			margin-top: 2em;
+			padding: 0.5em 1.5em;
+		}
+
+		#donation-name-input {
+			font-size: 1.5em;
+			height: 2.25em;
+			width: 18em;
+		}
+
+	/* - DONATION AMOUNT - */
+
+		#donation-amount-field {
+			margin-top: 1em;
+			height: 4.5em;
+			width: 30em;
+			padding: 0em 2em;
+		}
+
+		#donation-amount-input {
+			font-size: 2em;
+			height: 1.8em;
+			width: 9.4em;
+			margin-top: 0.2em;
+		}
+
+		#donation-amount-symbol,
+		#donation-amount-currency {
+			height: 4.5em;
+			width: 3.5em;
+		}
+
+		#donation-amount-symbol {
+			padding-top: 1.2em;
+		}
+
+		#donation-amount-symbol p {
+			font-size: 2.2em;
+		}
+
+		#donation-amount-currency {
+			padding-top: 1.5em;
+		}
+
+		#donation-amount-currency p {
+			font-size: 1.5em;
+		}
+
+
+	/* -- MARKET CATEGORY SECTION -- */
+
+	.market-card {
+		width: 40em;
+		height: 34em;
+		margin: 0em auto 3em auto;
+	}
+
+	.market-card-cover {
+		width: 40em;
+		margin-bottom: 2em;
+	}
+
+	.market-card h2 {
+		font-size: 2em;
+	}
+
+	.market-card p {
+		font-size: 1.4em;
+		margin: 1em auto 2.2em auto;
+	}
+
+	.market-card-button	{
+		font-size: 1.6em;
+		padding: 0.6em 2em;
+	}
+
+
+	/* -- PURCHASE WINDOW SECTION -- */	
+
+	#purchase-window-section {
+		margin-top: 0.5em;
+		width: 40em;
+	}
+
+	#purchase-window-card {
+		width: 40em;
+		height: 57em;
+	}
+
+	#purchase-window-success-card {
+		width: 40em;
+		height: 49em;
+	}
+
+	#purchase-window-card h2,
+	#purchase-window-success-card h2 {
+		padding-top: 1.5em;
+	}
+
+	.purchase-window-cover {
+		height: 26em;
+		margin-top: 2.5em;
+		padding-top: 4em;
+	}
+
+	.purchase-window-cover img {
+		height: 18em;
+	}
+
+		/* -- PURCHASE WINDOW RECEIPT -- */		
+
+		#purchase-window-receipt {
+			margin: 3em auto 3.5em auto;
+			width: 30em;
+		}
+
+		.purchase-window-row {
+			height: 2em;
+		}
+
+		.purchase-window-item {
+			margin-top: 0.2em;
+			font-size: 1.6em;
+		}
+
+		.purchase-window-amount {
+			font-size: 2em;
+		}
+
+		.purchase-window-line {
+			margin-bottom: 1.5em;
+		}
+
+		.purchase-window-button {
+			font-size: 1.6em;
+			padding: 0.6em 5em;
+			border-radius: 0.3em;
+		}
+
+		/* -- PURCHASE WINDOW SUMMARY -- */
+
+		#purchase-window-summary {
+			margin: -0.5em auto 0em auto;
+			width: 30em;
+		}
+
+		#purchase-window-summary p {
+			font-size: 1.4em;
+			line-height: 1.5em;
+			margin: 1em auto 2.2em auto;
+		}
+
+
+	/* -- REWARD SECTION -- */
+
+	.reward-card {
+		width: 40em;
+		height: 34em;
+		margin: 0em auto 3em auto;		
+	}
+
+	.reward-card-cover {
+		height: 15em;
+	}
+
+	.reward-card-contents {
+		width: 30em;
+	}
+
+	.reward-card-contents h2 {
+		padding-top: 1.5em;
+		width: 7.5em;	
+		line-height: 1.3em;	
+	}
+
+	.reward-card-contents p {
+		font-size: 1.4em;
+		line-height: 1.5em;
+		margin: 1em auto 2.5em auto;		
+	}
+
+	#combination-reward-card-title {
+		width: 12em;
+	}
+
+		/* -- REWARD CARD COVERS -- */
+
+		#charlie-reward-card-cover,
+		#product-reward-card-cover,
+		#combination-reward-card-cover {
+			padding-top: 2.5em;
+		}
+
+		#charlie-reward-card-cover img,
+		#product-reward-card-cover img,
+		#combination-reward-card-cover img {
+			height: 10em;
+		}
+
+
+	/* -- UPSELL SECTION -- */
+
+	#upsell-section {
+		margin-top: 6em;
+	}
+
+	.upsell-card img {
+		height: 15em;
+	}
+
+	.upsell-card h2 {
+		padding-top: 0.5em;
+	}
+
+	.upsell-card p {
+		font-size: 1.4em;
+		margin: 0.5em auto 2.5em auto;		
+	}
+
+	.upsell-card-market-button	{
+		font-size: 1.6em;
+		padding: 0.6em 3em;
+	}
+
+	.upsell-card-signup-button {
+		font-size: 1.6em;
+		padding: 0.6em 3em;		
+	}
+
+}
+
+
+
+/* --- DESKTOP --- */
+
+@media only screen and (min-width: 1024px) {
+
+
+	/* -- GENERAL TYPOGRAPHY -- */
+
+	h1	{
+		font-size: 4em;
+	}
+
+	h2 {
+		font-size: 2.4em;
+	}
+
+
+	/* -- GENERAL COVER SECTION -- */
+
+	#header-bar {
+		max-width: 96.4em;
+	}
+
+	#cover-bar {
+		height: 21em;
+		padding-top: 5em;
+	}
+
+
+	/* -- GENERAL TOP SECTION HEIGHT -- */
+
+	#stream-section,
+	#profile-section,
+	#market-categories-section,
+	#category-products-section,
+	#reward-section {
+		margin-top: -7em;		
+	}
+
+
+	/* -- PROFILE SECTION -- */
+
+	#profile-card {
+		width: 57em;
+		height: 35em;
+	}
+
+	#profile-card-cover {
+		width: 57em;
+		height: 15em;
+		margin-bottom: 3em;
+	}
+
+	#profile-email-field {
+		width: 47.5em;
+		height: 4.5em;
+
+		margin: 2.5em auto;
+		padding: 1.5em 1.5em;		
+	}
+
+	#profile-email {
+		font-size: 1.4em;
+	}
+
+	#profile-password-link {
+		font-size: 1.4em;
+	}
+
+
+	/* -- STREAM SECTION -- */
+
+	#stream-card {
+		width: 57em;
+		height: 40.5em;
+		padding-top: 3.5em;
+	}
+
+	#stream-source {
+		width: 52em;
+		height: 29.5em;
+	}
+
+	#stream-profile-frame {
+		width: 9em;
+		height: 9em;
+		border-radius: 9em;
+		margin-top: -4.5em;
+		padding-top: 0.5em;
+	}
+
+	#stream-profile-image {
+		width: 8em;
+		height: 8em;
+		border-radius: 8em;
+		background-size: 8em;
+	}
+
+
+	/* -- DONATION SECTION -- */
+
+	#donation-section {
+		margin-top: 4em;
+	}
+
+	#donation-card {
+		padding-top: 3em;
+		width: 57em;
+		height: 50em;
+	}
+
+	#donation-name-input {
+		font-size: 1.4em;
+		height: 3em;
+		width: 34em;
+	}
+
+	/* - DONATION NAME - */
+
+		#donation-name-field {
+			width: 47.5em;
+			height: 4.5em;
+
+			margin-top: 2em;
+			padding: 0.5em 1.5em;
+		}
+
+		#donation-name-input {
+			font-size: 1.5em;
+			height: 2.25em;
+			width: 29.5em;
+		}
+
+	/* - DONATION AMOUNT - */
+
+		#donation-amount-field {
+			margin-top: 1em;
+			height: 4.5em;
+			width: 47.5em;
+			padding: 0em 2em;
+		}
+
+		#donation-amount-input {
+			font-size: 2em;
+			height: 1.8em;
+			width: 18.1em;
+			margin-top: 0.2em;
+		}
+
+		#donation-amount-symbol,
+		#donation-amount-currency {
+			height: 4.5em;
+			width: 3.5em;
+		}
+
+		#donation-amount-symbol {
+			padding-top: 1.2em;
+		}
+
+		#donation-amount-symbol p {
+			font-size: 2.2em;
+		}
+
+		#donation-amount-currency {
+			padding-top: 1.5em;
+		}
+
+		#donation-amount-currency p {
+			font-size: 1.5em;
+		}
+
+	/* -- MARKET CATEGORY SECTION -- */
+
+	.market-card {
+		width: 57em;
+		height: 35em;
+		margin: 0em auto 3em auto;
+	}
+
+	.market-card-cover {
+		width: 57em;
+		margin-bottom: 2.5em;
+	}
+
+	.market-card h2 {
+		font-size: 2.4em;
+	}
+
+	.market-card p {
+		font-size: 1.6em;
+		margin: 0.8em auto 2em auto;
+	}
+
+	.market-card-button	{
+		font-size: 1.6em;
+		padding: 0.6em 3em;
+	}
+
+
+	/* -- PURCHASE WINDOW SECTION -- */
+
+	#purchase-window-section {
+		margin-top: 2em;
+		width: 57em;
+	}
+
+	#purchase-window-card {
+		width: 57em;
+		height: 62em;
+	}
+
+	#purchase-window-success-card {
+		width: 57em;
+		height: 55em;		
+	}
+
+	#purchase-window-card h2,
+	#purchase-window-success-card h2 {
+		padding-top: 1.5em;
+	}
+
+	.purchase-window-cover {
+		height: 29em;
+		margin-top: 2.5em;
+		padding-top: 4.5em;
+	}
+
+	.purchase-window-cover img {
+		height: 20em;
+	}
+
+		/* -- PURCHASE WINDOW RECEIPT -- */
+
+		#purchase-window-receipt {
+			margin: 3em auto 4em auto;
+			width: 30em;
+		}
+
+		.purchase-window-row {
+			height: 2em;
+		}
+
+		.purchase-window-item {
+			margin-top: 0.2em;
+			font-size: 1.6em;
+		}
+
+		.purchase-window-amount {
+			font-size: 2em;
+		}
+
+		.purchase-window-line {
+			margin-bottom: 1.5em;
+		}
+
+		.purchase-window-button {
+			font-size: 1.6em;
+			padding: 0.6em 5em;
+			border-radius: 0.3em;
+		}
+
+		/* -- PURCHASE WINDOW SUMMARY -- */
+
+		#purchase-window-summary {
+			margin: 0em auto;
+			width: 38em;
+		}
+
+		#purchase-window-summary h2 {
+			font-size: 2em;
+		}
+
+		#purchase-window-summary p {
+			font-size: 1.6em;
+			line-height: 1.5em;
+			margin: 0.8em auto 2em auto;
+		}
+
+
+	/* -- REWARD SECTION -- */
+
+	.reward-card {
+		width: 57em;
+		height: 42em;
+		margin: 0em auto 3em auto;		
+	}
+
+	.reward-card-cover {
+		height: 20em;
+	}
+
+	.reward-card-contents {
+		width: 35em;
+	}
+
+	.reward-card-contents h2 {
+		padding-top: 1.5em;
+		width: 7.5em;	
+		line-height: 1.3em;	
+	}
+
+	.reward-card-contents p {
+		font-size: 1.6em;
+		line-height: 1.5em;
+		margin: 0.8em auto 2em auto;	
+	}
+
+	#combination-reward-card-title {
+		width: 12em;
+	}
+
+		/* -- REWARD CARD COVERS -- */
+
+		#charlie-reward-card-cover,
+		#product-reward-card-cover,
+		#combination-reward-card-cover {
+			padding-top: 4em;
+		}
+
+		#charlie-reward-card-cover img,
+		#product-reward-card-cover img,
+		#combination-reward-card-cover img {
+			height: 12em;
+		}
+
+
+	/* -- UPSELL SECTION -- */
+
+	#upsell-section {
+		margin-top: 7.5em;
+	}
+
+	.upsell-card img {
+		height: 15em;
+	}
+
+	.upsell-card h2 {
+		padding-top: 0.5em;
+	}
+
+	.upsell-card p {
+		font-size: 1.6em;
+		margin: 0.5em auto 2em auto;	
+	}
+
+	.upsell-card-market-button,
+	.upsell-card-signup-button	{
+		font-size: 1.6em;
+		padding: 0.6em 4em;
+	}
+
+}

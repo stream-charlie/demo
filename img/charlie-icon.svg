@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>POINTS IMAGE</title>
+    <desc>Created with Sketch.</desc>
+    <g id="MOBILE---SMALLEST" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="MOBILE---SMALLEST---SUCCESS---1.1.1" transform="translate(-110.000000, -195.000000)">
+            <g id="REWARD-CARD" transform="translate(34.000000, 170.000000)">
+                <g id="POINTS-IMAGE" transform="translate(76.000000, 25.000000)">
+                    <circle id="Oval" fill="#FFFFFF" cx="50" cy="50" r="50"></circle>
+                    <g id="ICON" transform="translate(29.530201, 23.646532)" fill="#0A64FF">
+                        <polygon id="Fill-17" points="3.31155069 32.9609679 16.5577534 26.3249018 5.7404422 19.7147651 4.53571201 26.2823035"></polygon>
+                        <polygon id="Fill-19" points="34.0568543 34.2855881 50.3355705 26.1917119 37.4726406 18.3901448 21.1939244 26.484021"></polygon>
+                        <polygon id="Fill-22" points="24.1004075 9.78011303 7.94772165 18.1002929 18.9497515 25.0132462 35.1024373 16.6912 29.7556565 13.3336398"></polygon>
+                        <polygon id="Fill-24" points="0 52.1679619 14.570823 44.8686167 2.66979103 37.5971388"></polygon>
+                        <polygon id="Fill-26" points="9.41368659 0.507771106 6.62310138 15.7409043 21.8562345 8.1098334"></polygon>
+                        <polygon id="Fill-29" points="3.97386083 35.0826845 16.8624738 42.8956199 25.2927494 38.7045992 31.7908866 35.4754222 18.9022737 27.6624868"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

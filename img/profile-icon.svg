@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="83px" height="99px" viewBox="0 0 83 99" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>ICON</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 0.970588235 50 0.970588235 50 49.9897059 0 49.9897059"></polygon>
+        <polygon id="path-3" points="0 0.801575926 82.9999012 0.801575926 82.9999012 53 0 53"></polygon>
+    </defs>
+    <g id="DESKTOP---SMALLEST" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="DESKTOP---SMALLEST---PROFILE" transform="translate(-470.000000, -255.000000)">
+            <g id="PROFILE-CARD" transform="translate(227.000000, 230.000000)">
+                <g id="ICON" transform="translate(242.415842, 25.000000)">
+                    <g id="Group-3" transform="translate(17.584158, 0.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Clip-2"></g>
+                        <path d="M50,25.479902 C50,39.0161765 38.807,49.9897059 25,49.9897059 C11.193,49.9897059 0,39.0161765 0,25.479902 C0,11.9436275 11.193,0.970098039 25,0.970098039 C38.807,0.970098039 50,11.9436275 50,25.479902" id="Fill-1" fill="#FFFFFF" mask="url(#mask-2)"></path>
+                    </g>
+                    <g id="Group-6" transform="translate(0.584158, 46.000000)">
+                        <mask id="mask-4" fill="white">
+                            <use xlink:href="#path-3"></use>
+                        </mask>
+                        <g id="Clip-5"></g>
+                        <path d="M69.293044,0.801575926 C62.9909726,9.24133519 52.889675,14.712113 41.4999012,14.712113 C30.1101274,14.712113 20.0088298,9.24133519 13.7067583,0.801575926 C5.29312738,8.34426111 -9.88095238e-05,19.2534278 -9.88095238e-05,31.3972981 C-9.88095238e-05,54.1637426 18.580044,52.9898907 41.4999012,52.9898907 C64.4197583,52.9898907 82.9999012,54.1637426 82.9999012,31.3972981 C82.9999012,19.2534278 77.706675,8.34426111 69.293044,0.801575926" id="Fill-4" fill="#FFFFFF" mask="url(#mask-4)"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,484 @@
+/*
+--------------
+IMPORTS
+--------------
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,800&display=swap');
+
+
+/*
+--------------
+BASIC FIXES & SETTINGS
+--------------
+*/
+
+* {
+	box-sizing: border-box;
+}
+
+
+body {
+	font-family: 'Poppins', sans-serif;
+    font-size: 62.5%;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.card {
+	background-color: white;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	border-radius: 0.5em;
+}
+
+#profile-card,
+#stream-card,
+#stream-source,
+#stream-profile-image,
+#stream-profile-frame,
+#donation-card,
+#donation-name-input,
+#reward-card,
+#upsell-card {
+	margin: 0em auto;
+}
+
+html {
+	background-color: #1E3149;
+}
+
+body {
+	background-color: white;
+}
+
+
+/*
+--------------
+GENERAL COLOUR PRESETS
+--------------
+*/
+
+
+.blue {
+	color: #0A64FF;
+}
+
+.red {
+	color: #AA0000;
+}
+
+.navy {
+	color: #1E3149;
+}
+
+.grey {
+	color: #AAAAAA;
+}
+
+.white {
+	color: #FFFFFF;
+}
+
+.blue-gradient {
+	background-image: linear-gradient(-10deg, #0A64FF, #189DFF);
+}
+
+.red-gradient {
+	background-image: linear-gradient(-10deg, #FF8C8C, #FFAEAE);
+}
+
+.orange-gradient {
+	background-image: linear-gradient(-10deg, #FFCD8C, #FFDCAE);
+}
+
+.darken {
+	background-color: black; opacity: 0.5;
+
+	height: 100%;
+	width: 100%;
+
+	position: fixed;
+	top: 0;
+	z-index: 1;
+}
+
+/*
+--------------
+GENERAL TYPOGRAPHY
+--------------
+*/
+
+h1,
+h2,
+h3,
+h4 {
+	font-weight: 800;
+	font-style: italic;
+	text-align: center;
+	margin: auto;
+}
+
+h1	{
+	color: #ffffff;
+}
+
+.bold {
+	font-weight: 700;
+}
+
+
+/*
+--------------
+GENERAL BUTTON STYLING
+--------------
+*/
+
+.market-card-button,
+.upsell-card-market-button,
+.upsell-card-signup-button {
+	border-radius: 0.5em;
+	border: 1px solid #0A64FF;
+}
+
+.market-card-button:hover,
+.upsell-card-market-button:hover,
+.upsell-card-signup-button:hover {
+	color: white;
+	background-color: #0A64FF; 
+}
+
+
+/*
+--------------
+GENERAL HEADER SECTION
+--------------
+*/
+
+header {
+	height: 9em;
+	width: 100%;
+	position: absolute;
+	top: 0;
+
+	background-color: white;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#header-bar {
+	height: 9em;
+	margin: auto;
+}
+
+#header-bar-logo {
+	float: left;
+}
+
+#header-bar-logo img {
+	height: 3em;
+	margin: 3em auto;
+}
+
+.header-bar-profile-info {
+	width: 8em;
+	height: 3.4em;
+	margin: 2.8em 1em 2.8em 0em;
+
+	float: right;
+	display: inline-block;
+}
+
+.profile-info-title {
+	font-size: 1.2em;
+}
+
+.profile-info-text {
+	font-size: 1.6em;
+	margin-top: 0.5em;
+}
+
+#header-bar-menu-button {
+	float: right;
+	margin: 2.25em 0em;
+	padding: 0.8em 0em;
+	height: 4.5em;
+	width: 4.5em;
+	border-radius: 4.5em;
+	background-color: white;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);	
+}
+
+.menu-button-icon {
+	height: 0.3em;
+	width: 2em;
+	background-color: #1E3149;
+	margin: 0.5em 1.25em;
+}
+
+
+/*
+--------------
+GENERAL COVER SECTION
+--------------
+*/
+
+
+#cover-section {
+	margin-top: 9em;	
+}
+
+
+
+/*
+--------------
+PROFILE SECTION
+--------------
+*/
+
+#profile-card {
+	text-align: center;
+}
+
+#profile-card-cover {
+	border-radius: 0.5em 0.5em 0 0;
+	text-align: center;
+	padding-top: 2.5em;
+}
+
+#profile-card-icon {
+	height: 10em;
+}
+
+#profile-email-field {
+	border: 1px solid #DDDDDD;
+	border-radius: 0.5em;
+	margin: auto;
+
+	font-family: 'Poppins', sans-serif;
+}
+
+#profile-password-link {
+	text-decoration: underline;
+}
+
+
+/*
+--------------
+STREAM SECTION
+--------------
+*/
+
+#stream-source {
+	background-color: #AAAAAA;
+}
+
+#stream-profile-image {
+	background-image: url(img/profile-1.jpeg);
+	background-position: center;
+	background-repeat: no-repeat;
+	margin: auto;
+}
+
+
+/*
+--------------
+DONATION SECTION
+--------------
+*/
+
+#donation-card {
+	text-align: center;
+}
+
+.donation-form-input {
+	border: 1px solid #DDDDDD;
+	border-radius: 0.5em;
+	color: #0A64FF;
+	margin: auto;
+	text-align: left;
+
+	font-family: 'Poppins', sans-serif;
+}
+
+#donation-name-input {
+	border: 0px;
+	font-family: 'Poppins', sans-serif;		
+}
+
+#donation-amount-field {
+	padding-left: 0em;
+}
+
+#donation-amount-symbol,
+#donation-amount-input,
+#donation-amount-currency {
+	font-family: 'Poppins', sans-serif;
+	display: inline-block;
+	float: left;	
+}
+
+#donation-amount-symbol {
+	text-align: left;
+}
+
+#donation-amount-input {
+	border: 0px;
+	text-align: center;
+}
+
+#donation-amount-currency {
+	text-align: right;
+}
+
+
+/*
+--------------
+MARKET CATEGORIES SECTION
+--------------
+*/
+
+#market-categories-section,
+#category-products-section {
+	text-align: center;
+}
+
+.market-card-cover {
+	border-radius: 0.5em 0.5em 0 0;
+	text-align: center;
+
+	height: 18em;
+	padding-top: 3.5em;	
+}
+
+
+/*
+--------------
+PURCHASE WINDOW SECTION
+--------------
+*/
+
+#purchase-window-section {
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%, 0);
+
+	z-index: 2;
+}
+
+#close-purchase-window img {
+	height: 2em;
+	float: right;
+	margin-bottom: 1em;
+}
+
+#purchase-window-card,
+#purchase-window-success-card {
+	clear: both;
+	text-align: center;
+}
+
+#purchase-window-cover {
+	text-align: center;
+	padding-top: 2.5em;
+}
+
+#purchase-window-receipt {
+	margin: auto;
+}
+
+.purchase-window-item {
+	text-align: left;
+	float: left;
+	display: inline;
+}
+
+.purchase-window-amount {
+	text-align: right;
+	float: right;
+	display: inline;
+}
+
+.purchase-window-summary {
+	margin: auto;
+}
+
+
+/*
+--------------
+REWARD SECTION
+--------------
+*/
+
+#reward-section {
+	text-align: center;
+}
+
+.reward-card {
+	text-align: center;
+}
+
+.reward-card-cover {
+	border-radius: 0.5em 0.5em 0 0;
+	text-align: center;
+}
+
+.reward-card-contents {
+	margin: auto;
+}
+
+
+/*
+--------------
+REWARD SECTION
+--------------
+*/
+
+#upsell-section {
+	text-align: center;
+}
+
+.upsell-card {
+	text-align: center;
+}
+
+
+/*
+--------------
+SPACER SECTIONS
+--------------
+*/
+
+#profile-page-spacer {
+	height: 16em;
+}
+
+#market-page-spacer {
+	height: 5em;
+}
+
+#success-page-spacer {
+	height: 8em;	
+}
+
+
+/*
+--------------
+FOOTER SECTION
+--------------
+*/
+
+#footer-bar {
+	bottom: 0;
+
+	background-color: #1E3149;
+	height: 9em;
+	width: 100%;
+	text-align: center;
+}
+
+#footer-bar-logo img {
+	height: 3em;
+	margin: 3em auto;
+}
