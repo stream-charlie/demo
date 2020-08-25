@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="119px" height="119px" viewBox="0 0 119 119" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>POINTS IMAGE</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="45.9545272%" y1="-57.6260653%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#189DFF" offset="0%"></stop>
+            <stop stop-color="#0A64FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="DESKTOP---SMALLEST" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="DESKTOP---SMALLEST---SUCCESS---1.2.3" transform="translate(-453.000000, -700.000000)">
+            <g id="UPSELL-CARD" transform="translate(363.000000, 700.000000)">
+                <g id="POINTS-IMAGE" transform="translate(89.500000, 0.000000)">
+                    <circle id="Oval" fill="url(#linearGradient-1)" cx="60" cy="59.5" r="59.5"></circle>
+                    <g id="ICON" transform="translate(35.500000, 28.000000)" fill="#FFFFFF">
+                        <polygon id="Fill-17" points="3.94736842 39.057384 19.7368421 31.1939201 6.8426071 23.3611814 5.40656872 31.1434429"></polygon>
+                        <polygon id="Fill-19" points="40.5957703 40.6270042 60 31.0360956 44.6673876 21.7915612 25.2631579 31.3824698"></polygon>
+                        <polygon id="Fill-22" points="28.7276857 11.5890295 9.47368421 21.4480986 22.5881037 29.6396624 41.8421053 19.7783819 35.4687425 15.7998118"></polygon>
+                        <polygon id="Fill-24" points="0 61.8168776 17.3684211 53.1674555 3.18239091 44.5510549"></polygon>
+                        <polygon id="Fill-26" points="11.2211144 0.601687764 7.89473684 18.6523207 26.0526316 9.60981723"></polygon>
+                        <polygon id="Fill-29" points="4.73684211 41.5715304 20.1000687 50.8295359 30.1489573 45.8633496 37.8947368 42.0369084 22.5315102 32.778903"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
