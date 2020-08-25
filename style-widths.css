@@ -19,6 +19,10 @@ MEDIA WIDTH SETTINGS
 		font-size: 1.8em;
 	}
 
+	h3 {
+		font-size: 1.6em;
+	}
+
 
 	/* -- GENERAL COVER SECTION -- */
 
@@ -115,7 +119,7 @@ MEDIA WIDTH SETTINGS
 	#donation-card {
 		padding-top: 2.5em;
 		width: 25em;
-		height: 47em;
+		height: 46em;
 	}
 
 	.donation-form-input,
@@ -137,7 +141,7 @@ MEDIA WIDTH SETTINGS
 		#donation-name-input {
 			font-size: 1.5em;
 			height: 2.25em;
-			width: 13.5em;
+			width: 13.7em;
 		}
 
 	/* - DONATION AMOUNT - */
@@ -178,6 +182,83 @@ MEDIA WIDTH SETTINGS
 			font-size: 1.5em;
 		}
 
+	/* - DONATION GIF - */
+
+		#donation-gif-field {
+			margin-top: 2.3em;
+		}
+
+		#donation-gif-title-extra {
+			display: none;
+		}
+
+		.gif-carousel-card {
+			padding: 0 0 0 0;
+		}
+
+		#carousel-card-2,
+		#carousel-card-3,
+		#carousel-card-4 {
+			display: none;
+		}
+
+		#donation-gif-carousel-navigation {
+			width: 14.6em;
+		}
+
+	/* - DONATION MESSAGE - */
+
+		#donation-message-field {
+			width: 21em;
+			height: 11em;
+
+			padding: 0.5em 0;
+		}
+
+		#donation-message-input {
+			font-size: 1.5em;
+			height: 6.5em;
+			width: 13.7em;
+		}
+
+
+	/* -- PREVIEW SECTION -- */
+
+	#preview-section {
+		margin-top: 5em;
+	}
+
+	#preview-card {
+		height: 21em;
+		width: 18em;
+
+		margin: 3em auto 5em auto;
+	}
+
+	#preview-card img {
+		margin-top: 1.5em;
+		height: 10em;
+	}
+
+	#preview-card-info {
+		font-size: 1.2em;
+		line-height: 1.5em;
+		width: 11.5em;
+		margin: auto;
+	}
+
+	#preview-card-message {
+		margin-top: 0.5em;
+	}
+
+	/* - DONATION BUTTON - */
+
+	.donation-button {
+		font-size: 1.6em;
+		padding: 0.6em 2.5em;
+		border-radius: 0.3em;
+	}
+
 
 	/* -- MARKET CATEGORY SECTION -- */
 
@@ -208,11 +289,6 @@ MEDIA WIDTH SETTINGS
 
 
 	/* -- PURCHASE WINDOW SECTION -- */	
-
-	#purchase-window-section {
-		margin-top: 1em;
-		width: 25em;
-	}
 
 	#purchase-window-card {
 		width: 25em;
@@ -286,6 +362,11 @@ MEDIA WIDTH SETTINGS
 			line-height: 1.5em;
 			margin: 0.8em auto 2.5em auto;
 		}
+
+
+	/* -- REWARD TIER WINDOW SECTION -- */	
+
+
 
 
 	/* -- REWARD SECTION -- */
@@ -365,8 +446,6 @@ MEDIA WIDTH SETTINGS
 	}
 
 
-
-
 }
 
 
@@ -383,6 +462,10 @@ MEDIA WIDTH SETTINGS
 
 	h2 {
 		font-size: 2em;
+	}
+
+	h3 {
+		font-size: 1.6em;
 	}
 
 
@@ -477,7 +560,7 @@ MEDIA WIDTH SETTINGS
 	#donation-card {
 		padding-top: 3em;
 		width: 40em;
-		height: 49em;
+		height: 48em;
 	}
 
 
@@ -488,13 +571,13 @@ MEDIA WIDTH SETTINGS
 			height: 4.5em;
 
 			margin-top: 2em;
-			padding: 0.5em 1.5em;
+			padding: 0.5em 0em;
 		}
 
 		#donation-name-input {
 			font-size: 1.5em;
 			height: 2.25em;
-			width: 18em;
+			width: 19.8em;
 		}
 
 	/* - DONATION AMOUNT - */
@@ -535,6 +618,75 @@ MEDIA WIDTH SETTINGS
 			font-size: 1.5em;
 		}
 
+	/* - DONATION GIF - */
+
+		.gif-carousel-card {
+			margin: 0 0.75em 0 0.75em;
+		}
+
+		#carousel-card-4 {
+			display: none;
+		}
+
+		#donation-gif-carousel-navigation {
+			width: 35.6em;
+		}
+
+	/* - DONATION MESSAGE - */
+
+		#donation-message-field {
+			width: 30em;
+			height: 11em;
+
+			padding: 0.5em 0;
+		}
+
+		#donation-message-input {
+			font-size: 1.5em;
+			height: 6.5em;
+			width: 19.8em;
+		}
+
+
+	/* -- PREVIEW SECTION -- */
+
+	#preview-section {
+		margin-top: 6em;
+	}
+
+	#preview-card {
+		height: 23em;
+		width: 22em;
+
+		margin: 3em auto 5em auto;
+	}
+
+	#preview-card img {
+		margin-top: 1em;
+		height: 10em;
+	}
+
+	#preview-card-info {
+		font-size: 1.6em;
+		line-height: 1.5em;
+		width: 11.5em;
+		margin: auto;
+	}
+
+	#preview-card-message {
+		font-size: 0.75em;
+		margin-top: 0.5em;
+	}
+
+
+	/* - DONATION BUTTON - */
+
+	.donation-button {
+		font-size: 1.6em;
+		padding: 0.6em 3em;
+		border-radius: 0.3em;
+	}
+
 
 	/* -- MARKET CATEGORY SECTION -- */
 
@@ -565,11 +717,6 @@ MEDIA WIDTH SETTINGS
 
 
 	/* -- PURCHASE WINDOW SECTION -- */	
-
-	#purchase-window-section {
-		margin-top: 0.5em;
-		width: 40em;
-	}
 
 	#purchase-window-card {
 		width: 40em;
@@ -638,6 +785,11 @@ MEDIA WIDTH SETTINGS
 			line-height: 1.5em;
 			margin: 1em auto 2.2em auto;
 		}
+
+
+	/* -- REWARD TIER WINDOW SECTION -- */	
+
+
 
 
 	/* -- REWARD SECTION -- */
@@ -735,6 +887,10 @@ MEDIA WIDTH SETTINGS
 		font-size: 2.4em;
 	}
 
+	h3 {
+		font-size: 1.6em;
+	}
+
 
 	/* -- GENERAL COVER SECTION -- */
 
@@ -827,7 +983,7 @@ MEDIA WIDTH SETTINGS
 	#donation-card {
 		padding-top: 3em;
 		width: 57em;
-		height: 50em;
+		height: 48em;
 	}
 
 	#donation-name-input {
@@ -843,13 +999,13 @@ MEDIA WIDTH SETTINGS
 			height: 4.5em;
 
 			margin-top: 2em;
-			padding: 0.5em 1.5em;
+			padding: 0.5em 0em;
 		}
 
 		#donation-name-input {
 			font-size: 1.5em;
 			height: 2.25em;
-			width: 29.5em;
+			width: 31.5em;
 		}
 
 	/* - DONATION AMOUNT - */
@@ -890,6 +1046,71 @@ MEDIA WIDTH SETTINGS
 			font-size: 1.5em;
 		}
 
+	/* - DONATION GIF - */
+
+		.gif-carousel-card {
+			margin: 0 0.75em 0 0.75em;
+		}
+
+		#donation-gif-carousel-navigation {
+			width: 47.6em;
+		}
+
+	/* - DONATION MESSAGE - */
+
+		#donation-message-field {
+			width: 47.5em;
+			height: 11em;
+
+			padding: 0.5em 0;
+		}
+
+		#donation-message-input {
+			font-size: 1.5em;
+			height: 6.5em;
+			width: 31.5em;
+		}
+
+
+	/* -- PREVIEW SECTION -- */
+
+	#preview-section {
+		margin-top: 6em;
+	}
+
+	#preview-card {
+		height: 23em;
+		width: 22em;
+
+		margin: 3em auto 5em auto;
+	}
+
+	#preview-card img {
+		margin-top: 1em;
+		height: 10em;
+	}
+
+	#preview-card-info {
+		font-size: 1.6em;
+		line-height: 1.5em;
+		width: 11.5em;
+		margin: auto;
+	}
+
+	#preview-card-message {
+		font-size: 0.75em;
+		margin-top: 0.5em;
+	}
+
+	/* - DONATION BUTTON - */
+
+	.donation-button {
+		font-size: 1.6em;
+		padding: 0.6em 5em;
+		border-radius: 0.3em;
+	}
+
+
 	/* -- MARKET CATEGORY SECTION -- */
 
 	.market-card {
@@ -919,11 +1140,6 @@ MEDIA WIDTH SETTINGS
 
 
 	/* -- PURCHASE WINDOW SECTION -- */
-
-	#purchase-window-section {
-		margin-top: 2em;
-		width: 57em;
-	}
 
 	#purchase-window-card {
 		width: 57em;
@@ -997,6 +1213,13 @@ MEDIA WIDTH SETTINGS
 			margin: 0.8em auto 2em auto;
 		}
 
+
+	/* -- REWARD TIER WINDOW SECTION -- */	
+
+	#reward-tiers-donation-window-card {
+		width: 57em;
+		height: 15em;
+	}
 
 	/* -- REWARD SECTION -- */
 

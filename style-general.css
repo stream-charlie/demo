@@ -288,7 +288,7 @@ DONATION SECTION
 --------------
 */
 
-#donation-card {
+#donation-section {
 	text-align: center;
 }
 
@@ -297,14 +297,14 @@ DONATION SECTION
 	border-radius: 0.5em;
 	color: #0A64FF;
 	margin: auto;
-	text-align: left;
 
 	font-family: 'Poppins', sans-serif;
 }
 
 #donation-name-input {
 	border: 0px;
-	font-family: 'Poppins', sans-serif;		
+	font-family: 'Poppins', sans-serif;	
+	text-align: center;
 }
 
 #donation-amount-field {
@@ -332,6 +332,73 @@ DONATION SECTION
 	text-align: right;
 }
 
+#donation-gif-field {
+	margin-top: 3em;
+}
+
+#donation-gif-carousel {
+	text-align: center;
+	margin: auto;
+	margin-top: 2em;
+	height: 9em;
+}
+
+.gif-carousel-card {
+	border: 1px solid #DDDDDD;
+	border-radius: 0.5em;
+	color: #0A64FF;
+	height: 9em;
+	width: 9em;	
+
+	display: inline-block;
+	padding: 0.5em;
+}
+
+#donation-gif-carousel-navigation {
+	text-align: right;
+	margin-top: -5.5em;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+#gif-carousel-back {
+	float: left;
+}
+
+#donation-message-field {
+	margin-top: 5em;
+}
+
+#donation-message-input {
+	border: 0px;
+	text-align: center;
+	font-family: 'Poppins', sans-serif;		
+}
+
+.donation-button {
+	font-family: 'Poppins', sans-serif;	
+	border: none;
+	margin: auto;	
+}
+
+
+/*
+--------------
+PREVIEW SECTION
+--------------
+*/
+
+#preview-card {
+	background-color: white;
+	border-radius: 0.5em;
+	border: 1px dashed #DDDDDD;
+
+	margin: auto;
+	text-align: center;
+}
+
+
 
 /*
 --------------
@@ -352,14 +419,15 @@ MARKET CATEGORIES SECTION
 	padding-top: 3.5em;	
 }
 
-
 /*
 --------------
-PURCHASE WINDOW SECTION
+WINDOW SECTION
 --------------
 */
 
-#purchase-window-section {
+
+#purchase-window-section,
+#reward-tiers-window-section {
     position: fixed;
     left: 50%;
     transform: translate(-50%, 0);
@@ -367,17 +435,25 @@ PURCHASE WINDOW SECTION
 	z-index: 2;
 }
 
-#close-purchase-window img {
+.close-window img {
 	height: 2em;
 	float: right;
 	margin-bottom: 1em;
 }
 
 #purchase-window-card,
-#purchase-window-success-card {
+#purchase-window-success-card,
+#reward-tiers-donation-window-card {
 	clear: both;
 	text-align: center;
 }
+
+
+/*
+--------------
+PURCHASE WINDOW SECTION
+--------------
+*/
 
 #purchase-window-cover {
 	text-align: center;
@@ -403,6 +479,20 @@ PURCHASE WINDOW SECTION
 .purchase-window-summary {
 	margin: auto;
 }
+
+
+/*
+--------------
+REWARD TIERS WINDOW SECTION
+--------------
+*/
+
+#reward-tiers-donation-window-card {
+	text-align: center;
+	padding-top: 2.5em;
+}
+
+
 
 
 /*
@@ -443,6 +533,11 @@ REWARD SECTION
 	text-align: center;
 }
 
+#charlie-upsell-card-cover img {
+	height: 12em;
+	margin-bottom: 1.5em;
+}
+
 
 /*
 --------------
@@ -460,6 +555,10 @@ SPACER SECTIONS
 
 #success-page-spacer {
 	height: 8em;	
+}
+
+#donation-page-spacer {
+	height: 8em;
 }
 
 
