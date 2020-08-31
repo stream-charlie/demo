@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="174px" height="175px" viewBox="0 0 174 175" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="75.7475248" cy="75.5" r="75.5"></circle>
+        <filter x="-12.6%" y="-11.3%" width="125.2%" height="125.2%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="6" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.15 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="DESKTOP---SMALLEST" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-2" transform="translate(-13.000000, -15.000000)">
+            <rect id="Rectangle" x="0" y="0" width="200" height="200"></rect>
+            <g id="GRAPHIC" transform="translate(24.000000, 25.000000)">
+                <g id="Oval">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <g id="ICON" transform="translate(43.247525, 36.000000)" fill="#0A64FF">
+                    <polygon id="Fill-17" points="5 49.1367089 25 39.243964 8.66730233 29.3898734 6.84832038 39.1804605"></polygon>
+                    <polygon id="Fill-19" points="51.4213091 51.1113924 76 39.0454106 56.5786909 27.4151899 32 39.4811717"></polygon>
+                    <polygon id="Fill-22" points="36.3884019 14.5797468 12 26.9830918 28.6115981 37.2886076 53 24.8824804 44.9270738 19.8771826"></polygon>
+                    <polygon id="Fill-24" points="0 77.7696203 22 66.8880892 4.03102849 56.0481013"></polygon>
+                    <polygon id="Fill-26" points="14.2134116 0.756962025 10 23.4658228 33 12.0897701"></polygon>
+                    <polygon id="Fill-29" points="6 52.2996673 25.4600871 63.9468354 38.1886792 57.6990527 48 52.8851428 28.5399129 41.2379747"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

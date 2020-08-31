@@ -1,0 +1,306 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Charlie | Reward Tiers Page</title>
+
+<link rel="stylesheet" type="text/css" href="reset.css">
+<link rel="stylesheet" type="text/css" href="style-general.css">
+<link rel="stylesheet" type="text/css" href="style-widths.css">
+
+</head>
+
+
+<body>
+
+
+<!--
+REWARD TIERS SECTION
+-->
+
+<section id="reward-tiers-window-section">
+
+<form id="reward-tiers-form" method="get" action="#">
+
+	<a href="#0" class="close-window" id="close-reward-tiers-window"><img src="img/close-icon.svg"></a>
+
+	<!-- REWARD TIERS DONATION WINDOW -->
+
+	<div class="card" id="reward-tiers-donation-amount-card">
+
+		<h2>Your Donation Amount</h2>
+
+		<div class="bold" id="reward-tiers-donation-field">
+			<div class="navy bold" id="reward-tiers-donation-amount-symbol">
+				<p>$</p>
+			</div>
+
+			<input class="blue bold" type="number" id="reward-tiers-donation-amount-input" name="donation" placeholder="0.00">
+			
+			<div class="navy bold" id="reward-tiers-donation-amount-currency">
+				<p>CAD</p>
+			</div>
+		</div>
+
+	</div>
+
+	<!-- REWARD TIERS SELECTION WINDOW -->
+
+	<div class="card" id="reward-tiers-selection-card">
+
+		<h2>Choose a Reward Tier</h2>
+
+		<div id="reward-tiers-selection-field">
+
+			<label>
+				<div class="card">
+					<input type="radio" id="reward-tier-1" name="reward-tier" value="charlie">
+					<div class="reward-tier-contents">
+						<img src="img/lock-open-icon.svg" class="reward-tier-icon">
+						
+						<div class="reward-tier-description">
+							<p class="reward-tier-title blue bold">Get <span id="reward-tier-charlie-amount">100</span> Charlie</p>
+							<p class="reward-tier-text blue">For this donation</p>
+						</div>
+					</div>
+				</div>
+			</label>
+
+			<label>
+				<div class="card">
+					<input type="radio" id="reward-tier-2" name="reward-tier" value="charlie">
+					<div class="reward-tier-contents gold-bg">
+						<img src="img/lock-closed-icon.svg" class="reward-tier-icon">
+
+						<div class="reward-tier-description">
+							<p class="reward-tier-title white bold shadow">Get a $5 Giftcard</p>
+							<p class="reward-tier-text white shadow">Donate $20+</p>
+						</div>	
+
+					</div>
+				</div>
+			</label>
+
+			<label>
+				<div class="card">
+					<input type="radio" id="reward-tier-3" name="reward-tier" value="charlie">
+					<div class="reward-tier-contents gold-bg">
+						<img src="img/lock-closed-icon.svg" class="reward-tier-icon">
+
+						<div class="reward-tier-description">
+							<p class="reward-tier-title white bold shadow">Get a $10 Giftcard</p>
+							<p class="reward-tier-text white shadow">Donate $30+</p>
+						</div>		
+
+					</div>
+				</div>
+			</label>
+
+			<label>
+				<div class="card">
+					<input type="radio" id="reward-tier-4" name="reward-tier" value="charlie">
+					<div class="reward-tier-contents gold-bg">
+						<img src="img/lock-closed-icon.svg" class="reward-tier-icon">
+
+						<div class="reward-tier-description">
+							<p class="reward-tier-title white bold shadow">Get a $15 Giftcard</p>
+							<p class="reward-tier-text white shadow">Donate $45+</p>
+						</div>	
+
+					</div>
+				</div>
+			</label>
+
+		</div>
+
+	<button type="submit" formaction="" class="reward-tiers-button blue-gradient white bold" id="reward-tiers-button">Confirm Donation</button>
+
+
+	<a href="#" class="grey bold" id="reward-tiers-link">I don't want a reward</a>
+
+	</div>
+
+</form>
+
+</section>
+
+
+<!--
+DARKEN SECTION
+-->
+
+<section class="darken">
+</section>
+
+
+<!--
+NAVIGATION SECTION
+-->
+
+<header>
+	<div id="header-bar">
+
+		<a href="" id="header-bar-logo"><img src="img/charlie-logo-dark.svg"></a>
+
+		<div id="header-bar-menu-button">
+			<div class="menu-button-icon"></div>
+			<div class="menu-button-icon"></div>
+			<div class="menu-button-icon"></div>
+		</div>
+
+		<div class="header-bar-profile-info">
+			<p class="profile-info-title blue">Charlie</p>
+			<p class="profile-info-text navy bold" id="profile-balance">100</p>			
+		</div>
+
+		<div class="header-bar-profile-info">
+			<p class="profile-info-title blue">Welcome</p>
+			<p class="profile-info-text navy bold" id="profile-name">Paul</p>
+		</div>
+
+	</div>
+</header>
+
+
+<!--
+COVER SECTION
+-->
+
+<section id="cover-section">
+	<div class="blue-gradient" id="cover-bar">
+		<h1 class="cover-bar-title" id="donation-page-title">Zerango</h1>
+	</div>
+</section>
+
+
+<!--
+STREAM SECTION
+-->
+
+<section id="stream-section">
+	<div class="card" id="stream-card">
+		<div id="stream-source"></div>
+		<div class="card" id="stream-profile-frame">
+			<div id="stream-profile-image"></div>
+		</div>
+	</div>
+</section>
+
+
+<!--
+DONATION SECTION
+-->
+
+<section id="donation-section">
+	<form id="donation-form" method="get" action="congratulations-page.html">
+	
+	<div class="card" id="donation-card">
+
+		<h2 class="donation-card-title">Your Donation</h2>
+
+		<div class="donation-form-input bold" id="donation-name-field">
+			<input class="blue bold" type="name" id="donation-name-input" name="donation" placeholder="Your Name">
+		</div>
+
+		<div class="donation-form-input bold" id="donation-amount-field">
+			<div class="navy bold" id="donation-amount-symbol">
+				<p>$</p>
+			</div>
+			<input class="blue bold" type="number" id="donation-amount-input" name="donation" placeholder="0.00">
+			<div class="navy bold" id="donation-amount-currency">
+				<p>CAD</p>
+			</div>
+		</div>
+
+		<div id="donation-gif-field">
+
+			<h3>Donation GIF <span id="donation-gif-title-extra">and Message</span></h3>
+
+			<div id="donation-gif-carousel">
+				<div class="gif-carousel-card" id="carousel-card-1">
+					<img src="img/donation-gif-1.png">
+				</div>
+				<div class="gif-carousel-card" id="carousel-card-2">
+					<img src="img/donation-gif-2.png">					
+				</div>
+				<div class="gif-carousel-card" id="carousel-card-3">
+					<img src="img/donation-gif-3.png">					
+				</div>
+				<div class="gif-carousel-card" id="carousel-card-4">
+					<img src="img/donation-gif-4.png">					
+				</div>
+			</div>
+
+			<div id="donation-gif-carousel-navigation">
+				<div class="gif-carousel-arrow" id="gif-carousel-back">
+					<img src="img/arrow-back.svg">
+				</div>
+				<div class="gif-carousel-arrow" id="gif-carousel-forward">
+					<img src="img/arrow-next.svg">
+				</div>
+			</div>
+
+		</div>
+
+		<div class="donation-form-input bold" id="donation-message-field">
+			<input class="blue bold" type="name" id="donation-message-input" name="message" placeholder="Your Message">
+		</div>
+
+	</div>
+
+
+		<!--
+		PREVIEW SECTION
+		-->
+
+		<section id="preview-section">
+
+			<h2 class="navy">Donation Alert Preview</h1>
+
+			<div id="preview-card">
+
+				<img src="img/donation-gif-1.png">
+				
+				<div id="preview-card-info">
+
+				<p class="navy bold">
+					<span id="preview-card-name">[ <span class="blue">Your Name</span> ]</span> 
+					donated  $
+					<span id="preview-card-amount">[ <span class="blue">Amount</span> ]</span>
+				</p>
+				
+				<p class="navy" id="preview-card-message">
+				[ <span class="blue">Your Message</span> ]
+				</p>
+
+				</div>
+
+			</div>
+
+		</section>
+
+	<button type="submit" formaction="" class="donation-button blue-gradient white bold" id="donation-button">Confirm Donation</button>
+	
+	</form>
+
+</section>
+
+
+<!--
+FOOTER SECTION
+-->
+
+<section id="donation-page-spacer"></section>
+
+<footer id="footer-bar">
+		<a href="" id="footer-bar-logo"><img src="img/charlie-logo-light.svg"></a>
+</footer> 
+
+
+
+
+
+</body>
+
+</html>

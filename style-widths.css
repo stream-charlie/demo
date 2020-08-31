@@ -50,6 +50,12 @@ MEDIA WIDTH SETTINGS
 		margin-top: -3em;		
 	}
 
+	#purchase-window-section,
+	#reward-tiers-window-section,
+	#reward-partners-window-section {
+		margin-top: 0.5em;
+	}
+
 
 	/* -- PROFILE SECTION -- */
 
@@ -364,9 +370,204 @@ MEDIA WIDTH SETTINGS
 		}
 
 
-	/* -- REWARD TIER WINDOW SECTION -- */	
+	/* -- REWARD TIERS + PARTNERS + SUMMARY WINDOW SECTION -- */	
 
+	#reward-tiers-donation-amount-card,
+	#reward-tiers-donation-selection-card {
+		width: 28em;
+	}
 
+	#reward-partners-donation-amount-card,
+	#reward-partners-donation-selection-card {
+		width: 28em;
+	}
+
+	#reward-summary-donation-amount-card,
+	#reward-summary-reward-card,
+	#reward-summary-combination-reward-card,
+	#reward-summary-paypal-card {
+		width: 28em;
+	}
+
+		/* -- REWARD TIERS DONATION AMOUNT CARD -- */	
+
+		#reward-tiers-donation-amount-card,
+		#reward-partners-donation-amount-card,
+		#reward-summary-donation-amount-card {
+			height: 13em;
+		}
+
+		#reward-tiers-donation-field,
+		#reward-partners-donation-field,
+		#reward-summary-donation-field {
+			margin-top: 1.25em;
+			width: 20.5em;
+			height: 3.5em;
+		}
+
+		#reward-tiers-donation-amount-symbol,
+		#reward-tiers-donation-amount-currency,
+		#reward-partners-donation-amount-symbol,
+		#reward-partners-donation-amount-currency,
+		#reward-summary-donation-amount-symbol,
+		#reward-summary-donation-amount-currency {
+			width: 3.5em;
+		}
+
+		#reward-tiers-donation-amount-symbol,
+		#reward-partners-donation-amount-symbol,
+		#reward-summary-donation-amount-symbol {
+			padding-top: 1.4em;
+		}
+
+		#reward-tiers-donation-amount-symbol p,
+		#reward-partners-donation-amount-symbol p,
+		#reward-summary-donation-amount-symbol p {
+			font-size: 3.5em;
+		}
+
+		#reward-tiers-donation-amount-currency,
+		#reward-partners-donation-amount-currency,
+		#reward-summary-donation-amount-currency {
+			padding-top: 3em;
+		}
+
+		#reward-tiers-donation-amount-currency p,
+		#reward-partners-donation-amount-currency p,
+		#reward-summary-donation-amount-currency p {
+			font-size: 1.5em;
+		}
+
+		#reward-tiers-donation-amount-input {
+			width: 3.3em;
+			font-size: 4em;
+		}
+
+		#reward-partners-donation-amount,
+		#reward-summary-donation-amount {
+			width: 3em;
+			font-size: 4em;
+			padding-top: 0.25em;
+		}
+
+		/* -- REWARD TIERS + PARTNERS SELECTION CARD -- */	
+
+		#reward-tiers-selection-card,
+		#reward-partners-selection-card {
+			margin-top: 1em;
+			height: 48em;
+		}
+
+		#reward-tiers-selection-field,
+		#reward-partners-selection-field {
+			width: 22.5em;
+			margin-top: 2.5em;
+			margin-bottom: 3em;
+		}
+
+		.reward-tier-contents {
+			height: 6em;
+			width: 22.5em;
+
+			padding: 1.5em;
+
+			margin-bottom: 1em;
+		}
+
+		.reward-tier-icon {
+			height: 3em;
+		}
+
+		.reward-tier-description {
+			width: 14.5em;
+			margin-left: 1.5em;
+		}
+
+		.reward-tier-title {
+			font-size: 1.6em;
+		}
+
+		.reward-tier-text {
+			font-size: 1.2em;
+			margin-top: 0.2em;
+		}
+
+		.reward-partner-contents {
+			height: 6em;
+			width: 22.5em;
+
+			margin-bottom: 1em;
+		}
+
+		.reward-partner-contents img {
+			height: 6em;
+		}
+
+			/* - REWARD TIERS + PARTNERS BUTTONS + LINKS - */
+
+			.reward-tiers-button {
+				font-size: 1.6em;
+				padding: 0.6em 2.5em;
+				border-radius: 0.3em;
+			}
+
+			.reward-partners-button {
+				font-size: 1.6em;
+				padding: 0.6em 2.8em;
+				border-radius: 0.3em;
+			}
+
+			#reward-tiers-link,
+			#reward-partners-link {
+				font-size: 1.4em;
+				margin-top: 1.5em;
+			}
+
+		/* - REWARD SUMMARY REWARD + PAYPAL CARDS - */		
+
+		#reward-summary-reward-card {
+			margin-top: 1em;
+			height: 23.5em;
+		}
+
+		#reward-summary-combination-reward-card {
+			margin-top: 1em;
+			height: 26em;
+		}
+
+		#reward-summary-reward-card img,
+		#reward-summary-combination-reward-card img {
+			height: 15em;
+		}
+
+		#reward-card-image-charlie {
+			display: none;
+		}
+
+		#reward-summary-reward-card p {
+			font-size: 1.6em;
+		}
+
+		#reward-summary-combination-reward-card p {
+			font-size: 1.6em;
+			line-height: 1.4em;
+		}
+
+		#reward-summary-paypal-card {
+			margin-top: 1em;
+			height: 19em;
+		}
+
+		#paypal-card-button {
+			margin-top: 2em;
+			height: 10em;
+			width: 20em;
+		}
+
+		#reward-summary-paypal-card img {
+			margin: 1em auto;
+			height: 8em;
+		}
 
 
 	/* -- REWARD SECTION -- */
@@ -489,6 +690,12 @@ MEDIA WIDTH SETTINGS
 	#category-products-section,
 	#reward-section {
 		margin-top: -4em;
+	}
+
+	#purchase-window-section,
+	#reward-tiers-window-section,
+	#reward-partners-window-section {
+		margin-top: 1em;
 	}
 
 
@@ -787,9 +994,197 @@ MEDIA WIDTH SETTINGS
 		}
 
 
-	/* -- REWARD TIER WINDOW SECTION -- */	
+	/* -- REWARD TIERS + PARTNERS + SUMMARY WINDOW SECTION -- */	
 
+	#reward-tiers-donation-amount-card,
+	#reward-tiers-selection-card {
+		width: 40em;
+	}	
 
+	#reward-partners-donation-amount-card,
+	#reward-partners-donation-selection-card {
+		width: 40em;
+	}
+
+	#reward-summary-donation-amount-card {
+		width: 40em;
+	}
+
+		/* -- REWARD TIERS DONATION AMOUNT CARD -- */	
+
+		#reward-tiers-donation-amount-card,
+		#reward-partners-donation-amount-card,
+		#reward-summary-donation-amount-card {
+			height: 13.5em;
+		}
+
+		#reward-tiers-donation-field,
+		#reward-partners-donation-field,
+		#reward-summary-donation-field {
+			margin-top: 1.25em;
+			width: 27em;
+			height: 3.5em;
+		}
+
+		#reward-tiers-donation-amount-symbol,
+		#reward-tiers-donation-amount-currency,
+		#reward-partners-donation-amount-symbol,
+		#reward-partners-donation-amount-currency,
+		#reward-summary-donation-amount-symbol,
+		#reward-summary-donation-amount-currency {
+			width: 3.5em;
+		}
+
+		#reward-tiers-donation-amount-symbol,
+		#reward-partners-donation-amount-symbol,
+		#reward-summary-donation-amount-symbol {
+			padding-top: 1.4em;
+		}
+
+		#reward-tiers-donation-amount-symbol p,
+		#reward-partners-donation-amount-symbol p,
+		#reward-summary-donation-amount-symbol p {
+			font-size: 3.5em;
+		}
+
+		#reward-tiers-donation-amount-currency,
+		#reward-partners-donation-amount-currency,
+		#reward-summary-donation-amount-currency {
+			padding-top: 3em;
+		}
+
+		#reward-tiers-donation-amount-currency p,
+		#reward-partners-donation-amount-currency p,
+		#reward-summary-donation-amount-currency p {
+			font-size: 1.5em;
+		}
+
+		#reward-tiers-donation-amount-input {
+			width: 5em;
+			font-size: 4em;
+		}
+
+		#reward-partners-donation-amount,
+		#reward-summary-donation-amount {
+			width: 5em;
+			font-size: 4em;
+			padding-top: 0.25em;
+		}
+
+		/* -- REWARD TIERS + PARTNERS SELECTION CARD -- */	
+
+		#reward-tiers-selection-card,
+		#reward-partners-selection-card {
+			margin-top: 1em;
+			height: 48em;
+		}
+
+		#reward-tiers-selection-field,
+		#reward-partners-selection-field {
+			width: 30em;
+			margin-top: 2.5em;
+			margin-bottom: 3em;
+		}
+
+		.reward-tier-contents {
+			height: 6em;
+			width: 30em;
+
+			padding: 1.5em;
+
+			margin-bottom: 1em;
+		}
+
+		.reward-tier-icon {
+			height: 3em;
+		}
+
+		.reward-tier-description {
+			width: 14.5em;
+			margin-left: 1.5em;
+		}
+
+		.reward-tier-title {
+			font-size: 1.6em;
+		}
+
+		.reward-tier-text {
+			font-size: 1.2em;
+			margin-top: 0.2em;
+		}
+
+		.reward-partner-contents {
+			height: 6em;
+			width: 30em;
+
+			margin-bottom: 1em;
+		}
+
+		.reward-partner-contents img {
+			height: 6em;
+		}
+
+		/* - REWARD TIERS BUTTONS + LINKS - */
+
+		.reward-tiers-button {
+			font-size: 1.6em;
+			padding: 0.6em 4.75em;
+			border-radius: 0.3em;
+		}
+
+		.reward-partners-button {
+			font-size: 1.6em;
+			padding: 0.6em 5.15em;
+			border-radius: 0.3em;
+		}
+
+		#reward-tiers-link,
+		#reward-partners-link {
+			font-size: 1.4em;
+			margin-top: 1.5em;
+		}
+
+		/* - REWARD SUMMARY REWARD + PAYPAL CARDS - */		
+
+		#reward-summary-reward-card {
+			margin-top: 1em;
+			height: 25.25em;
+		}
+
+		#reward-summary-combination-reward-card {
+			margin-top: 1em;
+			height: 28em;
+		}
+
+		#reward-summary-reward-card img,
+		#reward-summary-combination-reward-card img {
+			height: 16em;
+		}
+
+		#reward-summary-reward-card p {
+			font-size: 1.8em;
+		}
+
+		#reward-summary-combination-reward-card p {
+			font-size: 1.8em;
+			line-height: 1.4em;
+		}
+
+		#reward-summary-paypal-card {
+			margin-top: 1em;
+			height: 20em;
+		}
+
+		#paypal-card-button {
+			margin-top: 2em;
+			height: 10em;
+			width: 30em;
+		}
+
+		#reward-summary-paypal-card img {
+			margin: 1em auto;
+			height: 8em;
+		}
 
 
 	/* -- REWARD SECTION -- */
@@ -912,6 +1307,12 @@ MEDIA WIDTH SETTINGS
 	#category-products-section,
 	#reward-section {
 		margin-top: -7em;		
+	}
+
+	#purchase-window-section,
+	#reward-tiers-window-section,
+	#reward-partners-window-section {
+		margin-top: 2em;
 	}
 
 
@@ -1214,12 +1615,199 @@ MEDIA WIDTH SETTINGS
 		}
 
 
-	/* -- REWARD TIER WINDOW SECTION -- */	
+	/* -- REWARD TIERS + PARTNERS + SUMMARY WINDOW SECTION -- */	
 
-	#reward-tiers-donation-window-card {
+	#reward-tiers-donation-amount-card,
+	#reward-tiers-selection-card {
 		width: 57em;
-		height: 15em;
 	}
+
+	#reward-partners-donation-amount-card,
+	#reward-partners-donation-selection-card {
+		width: 57em;
+	}
+
+	#reward-summary-donation-amount-card {
+		width: 57em;
+	}
+
+		/* -- REWARD TIERS + PARTNERS DONATION AMOUNT CARD -- */	
+
+		#reward-tiers-donation-amount-card,
+		#reward-partners-donation-amount-card,
+		#reward-summary-donation-amount-card {
+			height: 14em;
+		}
+
+		#reward-tiers-donation-field,
+		#reward-partners-donation-field,
+		#reward-summary-donation-field {
+			margin-top: 1.25em;
+			width: 39em;
+			height: 3.5em;
+		}
+
+		#reward-tiers-donation-amount-symbol,
+		#reward-tiers-donation-amount-currency,
+		#reward-partners-donation-amount-symbol,
+		#reward-partners-donation-amount-currency,
+		#reward-summary-donation-amount-symbol,
+		#reward-summary-donation-amount-currency {
+			width: 3.5em;
+		}
+
+		#reward-tiers-donation-amount-symbol,
+		#reward-partners-donation-amount-symbol,
+		#reward-summary-donation-amount-symbol {
+			padding-top: 1.4em;
+		}
+
+		#reward-tiers-donation-amount-symbol p,
+		#reward-partners-donation-amount-symbol p,
+		#reward-summary-donation-amount-symbol p {
+			font-size: 3.5em;
+		}
+
+		#reward-tiers-donation-amount-currency,
+		#reward-partners-donation-amount-currency,
+		#reward-summary-donation-amount-currency {
+			padding-top: 3em;
+		}
+
+		#reward-tiers-donation-amount-currency p,
+		#reward-partners-donation-amount-currency p,
+		#reward-summary-donation-amount-currency p {
+			font-size: 1.5em;
+		}
+
+		#reward-tiers-donation-amount-input {
+			width: 8em;
+			font-size: 4em;
+		}
+
+		#reward-partners-donation-amount,
+		#reward-summary-donation-amount {
+			width: 8em;
+			font-size: 4em;
+			padding-top: 0.25em;
+		}
+
+		/* -- REWARD TIERS + PARTNERS SELECTION CARD -- */	
+
+		#reward-tiers-selection-card,
+		#reward-partners-selection-card {
+			margin-top: 1.5em;
+			height: 54em;
+		}
+
+		#reward-tiers-selection-field,
+		#reward-partners-selection-field {
+			width: 40em;
+			margin-top: 3em;
+			margin-bottom: 3em;
+		}
+
+		.reward-tier-contents {
+			height: 7em;
+			width: 40em;
+
+			padding: 1.5em;
+			padding-left: 2.5em;
+
+			margin-bottom: 1em;
+		}
+
+		.reward-tier-icon {
+			height: 4em;
+		}
+
+		.reward-tier-description {
+			width: 18em;
+			margin-left: 2.5em;
+		}
+
+		.reward-tier-title {
+			font-size: 1.8em;
+		}
+
+		.reward-tier-text {
+			font-size: 1.4em;
+			margin-top: 0.3em;
+		}
+
+		.reward-partner-contents {
+			height: 7em;
+			width: 40em;
+
+			margin-bottom: 1em;
+		}
+
+		.reward-partner-contents img {
+			height: 7em;
+		}
+
+		/* - REWARD TIERS BUTTONS + LINKS - */
+
+		.reward-tiers-button {
+			font-size: 1.8em;
+			padding: 0.6em 6.5em;
+			border-radius: 0.3em;
+		}
+
+		.reward-partners-button {
+			font-size: 1.8em;
+			padding: 0.6em 6.9em;
+			border-radius: 0.3em;
+		}
+
+		#reward-tiers-link,
+		#reward-partners-link {
+			font-size: 1.4em;
+			margin-top: 1.5em;
+		}
+
+		/* - REWARD SUMMARY REWARD + PAYPAL CARDS - */		
+
+		#reward-summary-reward-card {
+			margin-top: 1em;
+			height: 30.5em;
+		}
+
+		#reward-summary-combination-reward-card {
+			margin-top: 1em;
+			height: 34em;
+		}
+
+		#reward-summary-reward-card img,
+		#reward-summary-combination-reward-card img {
+			height: 20.5em;
+		}
+
+		#reward-summary-reward-card p {
+			font-size: 2em;
+		}
+
+		#reward-summary-combination-reward-card p {
+			font-size: 2em;
+			line-height: 1.4em;
+		}
+
+		#reward-summary-paypal-card {
+			margin-top: 1em;
+			height: 20em;
+		}
+
+		#paypal-card-button {
+			margin-top: 2em;
+			height: 10em;
+			width: 30em;
+		}
+
+		#reward-summary-paypal-card img {
+			margin: 1em auto;
+			height: 8em;
+		}
+
 
 	/* -- REWARD SECTION -- */
 

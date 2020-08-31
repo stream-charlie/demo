@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="197px" height="171px" viewBox="0 0 197 171" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M10.3663314,39.0216728 L145.672312,2.60475439 C151.005375,1.1693874 156.492272,4.32909471 157.927639,9.66215819 C157.929568,9.66932423 157.931489,9.67649241 157.933401,9.68366271 L175.795125,76.6419998 C177.216375,81.9698471 174.056629,87.4427149 168.731959,88.8758228 L33.4259786,125.292741 C28.0929151,126.728108 22.6060181,123.568401 21.1706511,118.235337 C21.1687224,118.228171 21.1668017,118.221003 21.164889,118.213833 L3.30316539,51.2554958 C1.88191542,45.9276485 5.04166148,40.4547807 10.3663314,39.0216728 Z" id="path-1"></path>
+        <filter x="-9.4%" y="-11.5%" width="118.9%" height="126.2%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="6" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.15 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M21.9959843,48.8393912 L161.310589,61.1030364 C166.808007,61.5869655 170.874163,66.4328366 170.396105,71.9307687 L164.388901,141.017043 C163.910482,146.51913 159.062325,150.591618 153.560238,150.1132 C153.556691,150.112891 153.553144,150.112581 153.549598,150.112269 L14.2349933,137.848623 C8.73757494,137.364694 4.67141963,132.518823 5.14947699,127.020891 L11.1566814,57.9346164 C11.6351,52.4325295 16.4832576,48.3600417 21.9853445,48.8384603 C21.9888913,48.8387687 21.9924379,48.839079 21.9959843,48.8393912 Z" id="path-3"></path>
+        <filter x="-10.9%" y="-15.7%" width="121.8%" height="135.3%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="6" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.15 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="DESKTOP---SMALLEST" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(-1.000000, -18.000000)">
+            <rect id="Rectangle" x="0" y="0" width="200" height="200"></rect>
+            <g id="GRAPHIC" transform="translate(10.000000, 25.000000)">
+                <g id="CARD-2">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <g id="CARD-1">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
