@@ -34,6 +34,7 @@ img {
 	border-radius: 0.5em;
 }
 
+.featured-streamer-card,
 #profile-card,
 #stream-card,
 #stream-source,
@@ -140,6 +141,8 @@ GENERAL BUTTON STYLING
 --------------
 */
 
+.featured-streamer-card-button,
+.featured-reward-card-button,
 .market-card-button,
 .upsell-card-market-button,
 .upsell-card-signup-button {
@@ -148,6 +151,8 @@ GENERAL BUTTON STYLING
 	cursor: pointer;
 }
 
+.featured-streamer-card-button:hover,
+.featured-reward-card-button:hover,
 .market-card-button:hover,
 .upsell-card-market-button:hover,
 .upsell-card-signup-button:hover {
@@ -242,6 +247,85 @@ GENERAL COVER SECTION
 #cover-section {
 	margin-top: 9em;	
 }
+
+
+/*
+--------------
+HOME SECTION
+--------------
+*/
+
+#featured-streamer-section,
+#featured-reward-section,
+#partner-section,
+#partner-section-logos {
+	margin: auto;
+	text-align: center;
+}
+
+.featured-streamer-card,
+.featured-reward-card {
+	text-align: center;
+	display: inline-block;
+}
+
+.featured-streamer-card-cover {
+	border-radius: 0.5em 0.5em 0 0;
+	background-position: center;
+	background-repeat: no-repeat;	
+}
+
+#featured-streamer-cover-1,
+#featured-streamer-cover-2,
+#featured-streamer-cover-3 {
+	background-image: url(img/streamer-feed.png);
+}
+
+.featured-reward-card-cover {
+	border-radius: 0.5em 0.5em 0 0;
+	background-position: center;
+	background-repeat: no-repeat;	
+}
+
+#featured-streamer-carousel-navigation,
+#featured-rewards-carousel-navigation {
+	text-align: right;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#featured-streamer-arrow-forward img,
+#featured-streamer-arrow-back img,
+#featured-reward-arrow-forward img,
+#featured-reward-arrow-back {
+	height: 3em;
+}
+
+#featured-streamer-arrow-back,
+#featured-reward-arrow-back {
+	position: relative;
+	z-index: 1;
+	float: left;
+}
+
+.carousel-dot {
+	border-radius: 5em;
+	border: 1px solid #1E3149;
+	height: 0.8em;
+	width: 0.8em;
+	display: inline-block;
+	margin: auto 0.2em;
+}
+
+.carousel-dot-filled {
+	background-color: #0A64FF;
+	border: 1px solid #0A64FF;
+}
+
+#partner-section-logos img {
+	display: inline-block;
+}
+
 
 
 /*
@@ -697,6 +781,10 @@ UPSELL SECTION
 SPACER SECTIONS
 --------------
 */
+
+#home-page-spacer {
+	height: 3em;
+}
 
 #profile-page-spacer {
 	height: 16em;

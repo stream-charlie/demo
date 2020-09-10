@@ -34,6 +34,11 @@ MEDIA WIDTH SETTINGS
 		display: none;
 	}
 
+	#home-cover-bar {
+		height: 21em;
+		padding-top: 2.7em;
+	}
+
 	#cover-bar {
 		height: 11em;
 		padding-top: 2.7em;
@@ -42,6 +47,7 @@ MEDIA WIDTH SETTINGS
 
 	/* -- GENERAL TOP SECTION HEIGHT -- */
 
+	#featured-streamer-section,
 	#profile-section,
 	#stream-section,
 	#market-categories-section,
@@ -54,6 +60,88 @@ MEDIA WIDTH SETTINGS
 	#reward-tiers-window-section,
 	#reward-partners-window-section {
 		margin-top: 0.5em;
+	}
+
+
+	/* -- HOME SECTION -- */
+
+	#home-page-title {
+		margin-top: 0.3em;
+		width: 12em;
+		line-height: 1.5em;
+	}
+
+	.featured-streamer-card,
+	.featured-reward-card {
+		width: 25em;
+		height: 29em;
+	}
+
+	.featured-streamer-card-cover,
+	.featured-reward-card-cover {
+		height: 14em;
+	}
+
+	.featured-reward-card-cover img {
+		margin-top: 1.75em;
+		height: 10em;
+	}
+
+	.featured-streamer-card h2,
+	.featured-reward-card h2 {
+		padding-top: 1.1em;
+	}
+
+	.featured-streamer-card p,
+	.featured-reward-card p {
+		padding-top: 0.8em;
+		font-size: 1.2em;
+		margin-bottom: 3em;
+	}
+
+	.featured-streamer-card-button,
+	.featured-reward-card-button {
+		font-size: 1.6em;
+		padding: 0.6em 2em;
+	}
+
+	#featured-streamer-carousel-navigation,
+	#featured-reward-carousel-navigation {
+		margin-top: -23.5em;
+		width: 28em;
+	}
+
+	#featured-streamer-2,
+	#featured-streamer-3,
+	#featured-reward-2,
+	#featured-reward-3 {
+		display: none;
+	}
+
+	#featured-streamer-carousel-dots,
+	#featured-reward-carousel-dots {
+		margin-top: 22em;
+	}
+
+	#featured-reward-section {
+		margin-top: 5em;
+	}
+
+	#featured-reward-title {
+		margin-bottom: 1.5em;
+	}
+
+	#partner-section {
+		margin-top: 5em;
+	}
+
+	#partner-section-logos {
+		margin-top: 2em;
+		width: 30em;
+	}
+
+	#partner-section-logos img {
+		height: 6em;
 	}
 
 
@@ -676,6 +764,11 @@ MEDIA WIDTH SETTINGS
 		margin: 0 3em;
 	}
 
+	#home-cover-bar {
+		height: 23.5em;
+		padding-top: 3.4em;
+	}
+
 	#cover-bar {
 		height: 14em;
 		padding-top: 3.4em;
@@ -684,6 +777,7 @@ MEDIA WIDTH SETTINGS
 
 	/* -- GENERAL TOP SECTION HEIGHT -- */
 
+	#featured-streamer-section,
 	#profile-section,
 	#stream-section,
 	#market-categories-section,
@@ -696,6 +790,87 @@ MEDIA WIDTH SETTINGS
 	#reward-tiers-window-section,
 	#reward-partners-window-section {
 		margin-top: 1em;
+	}
+
+
+	/* -- HOME SECTION -- */
+
+	#home-page-title {
+		margin-top: 0.6em;
+		width: 15em;
+		line-height: 1.5em;
+	}
+
+	.featured-streamer-card,
+	.featured-reward-card {
+		width: 25em;
+		height: 29em;
+		margin: auto 0.5em;
+	}
+
+	.featured-streamer-card-cover,
+	.featured-reward-card-cover {
+		height: 14em;
+	}
+
+	.featured-reward-card-cover img {
+		margin-top: 1.75em;
+		height: 10em;
+	}
+
+	.featured-streamer-card h2,
+	.featured-reward-card h2 {
+		padding-top: 1.1em;
+	}
+
+	.featured-streamer-card p,
+	.featured-reward-card p {
+		padding-top: 0.8em;
+		font-size: 1.2em;
+		margin-bottom: 3em;
+	}
+
+	.featured-streamer-card-button,
+	.featured-reward-card-button {
+		font-size: 1.6em;
+		padding: 0.6em 2em;
+	}
+
+	#featured-streamer-carousel-navigation,
+	#featured-reward-carousel-navigation {
+		margin-top: -23.5em;
+		width: 54em;
+	}
+
+	#featured-streamer-3,
+	#featured-reward-3 {
+		display: none;
+	}
+
+	#featured-streamer-carousel-dots,
+	#featured-reward-carousel-dots {
+		margin-top: 23em;
+	}
+
+	#featured-reward-section {
+		margin-top: 5em;
+	}
+
+	#featured-reward-title {
+		margin-bottom: 1.5em;
+	}
+
+	#partner-section {
+		margin-top: 5em;
+	}
+
+	#partner-section-logos {
+		margin-top: 2em;
+		width: 42em;
+	}
+
+	#partner-section-logos img {
+		height: 10em;
 	}
 
 
@@ -1293,6 +1468,11 @@ MEDIA WIDTH SETTINGS
 		max-width: 96.4em;
 	}
 
+	#home-cover-bar {
+		height: 33.6em;
+		padding-top: 5em;
+	}
+
 	#cover-bar {
 		height: 21em;
 		padding-top: 5em;
@@ -1301,6 +1481,7 @@ MEDIA WIDTH SETTINGS
 
 	/* -- GENERAL TOP SECTION HEIGHT -- */
 
+	#featured-streamer-section,
 	#stream-section,
 	#profile-section,
 	#market-categories-section,
@@ -1314,6 +1495,87 @@ MEDIA WIDTH SETTINGS
 	#reward-partners-window-section {
 		margin-top: 2em;
 	}
+
+
+	/* -- HOME SECTION -- */
+
+	#home-page-title {
+		margin-top: 0.6em;
+		width: 15em;
+		line-height: 1.5em;
+	}
+
+	.featured-streamer-card,
+	.featured-reward-card {
+		width: 29em;
+		height: 34em;
+		margin: auto 0.75em;
+	}
+
+	.featured-streamer-card-cover,
+	.featured-reward-card-cover {
+		height: 16em;
+	}
+
+	.featured-reward-card-cover img {
+		margin-top: 2em;
+		height: 11.5em;
+	}
+
+	.featured-streamer-card h2,
+	.featured-reward-card h2 {
+		padding-top: 1.1em;
+	}
+
+	.featured-streamer-card p,
+	.featured-reward-card p {
+		padding-top: 0.8em;
+		font-size: 1.6em;
+		margin-bottom: 2.5em;
+	}
+
+	.featured-streamer-card-button,
+	.featured-reward-card-button {
+		font-size: 1.6em;
+		padding: 0.6em 2em;
+	}
+
+	#featured-streamer-carousel-navigation,
+	#featured-reward-carousel-navigation {
+		margin-top: -27em;
+		width: 94em;
+	}
+
+	#featured-streamer-carousel-dots,
+	#featured-reward-carousel-dots {
+		margin-top: 27em;
+	}
+
+	#featured-reward-section {
+		margin-top: 7em;
+	}
+
+	#featured-reward-title {
+		margin-bottom: 1.5em;
+	}
+
+	#partner-section {
+		margin-top: 7em;
+	}
+
+	#partner-section-logos {
+		margin-top: 2em;
+		width: 85em;
+	}
+
+	#partner-section-logos img {
+		height: 10em;
+	}
+
+	#home-page-spacer {
+		height: 6em;
+	}
+
 
 
 	/* -- PROFILE SECTION -- */
